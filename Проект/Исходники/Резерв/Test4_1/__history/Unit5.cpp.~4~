@@ -1,0 +1,49 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit5.h"
+#include "Unit2.h"
+#include "ToChtoChutRabotaet.h"
+#include <iostream>
+#include <cstdlib>
+#include <sstream>
+#include <cstring>
+#include <fstream>
+#include <conio.h>
+#pragma package(smart_init)
+
+using namespace std;
+
+
+
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm5 *Form5;
+//---------------------------------------------------------------------------
+__fastcall TForm5::TForm5(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm5::Button1Click(TObject *Sender)
+{
+	string put="D:\\QR\\";
+	 string bmp=".bmp";
+	 string sFile=put+(AnsiString(Form1->Edit1->Text).c_str())+bmp;
+	 UnicodeString usFile = sFile.c_str();
+
+  //Form2->Image1->Picture->LoadFromFile("D:\\QR\\Example.bmp")  ;
+
+	Form2->Show();
+
+   //	ShowMessage("Добро пожаловать, друг");
+
+	Form2->Image1->Picture->LoadFromFile(usFile);
+	Form5->Close();
+
+	Form5->Label2->Caption=(Form1->Edit1->Text);
+}
+//---------------------------------------------------------------------------

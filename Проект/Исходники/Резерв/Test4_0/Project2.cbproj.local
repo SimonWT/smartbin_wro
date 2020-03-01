@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2016.06.15 17:44:30.884,=C:\Users\Anna\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2016.06.15 17:44:30.907,=C:\Users\Anna\Documents\Embarcadero\Studio\Projects\Unit3.cpp</Transaction>
+    <Transaction>2016.06.15 17:45:23.723,=C:\Users\Anna\Documents\Embarcadero\Studio\Projects\Unit4.cpp</Transaction>
+    <Transaction>2016.06.15 18:49:59.029,C:\Исходники\RAD\Test4\Unit3.cpp=C:\Users\Anna\Documents\Embarcadero\Studio\Projects\Unit3.cpp</Transaction>
+    <Transaction>2016.06.15 18:49:59.029,C:\Исходники\RAD\Test4\Unit3.h=C:\Users\Anna\Documents\Embarcadero\Studio\Projects\Unit3.h</Transaction>
+    <Transaction>2016.06.15 18:49:59.029,C:\Исходники\RAD\Test4\Unit3.dfm=C:\Users\Anna\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2016.06.15 18:50:05.457,C:\Исходники\RAD\Test4\Unit4.cpp=C:\Users\Anna\Documents\Embarcadero\Studio\Projects\Unit4.cpp</Transaction>
+    <Transaction>2016.06.15 18:50:05.457,C:\Исходники\RAD\Test4\Unit4.h=C:\Users\Anna\Documents\Embarcadero\Studio\Projects\Unit4.h</Transaction>
+    <Transaction>2016.06.15 18:50:08.278,C:\Исходники\RAD\Test4\Project2PCH1.h=C:\Users\Anna\Documents\Embarcadero\Studio\Projects\Project2PCH1.h</Transaction>
+    <Transaction>2016.06.15 18:50:10.441,C:\Исходники\RAD\Test4\Project2.cbproj=C:\Users\Anna\Documents\Embarcadero\Studio\Projects\Project2.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,99 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Registration'
+  ClientHeight = 560
+  ClientWidth = 890
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 56
+    Top = 248
+    Width = 143
+    Height = 60
+    Caption = 'Label1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -50
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 56
+    Top = 104
+    Width = 585
+    Height = 41
+    Caption = 'Registrate'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -25
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object DBGrid1: TDBGrid
+    Left = 56
+    Top = 336
+    Width = 745
+    Height = 120
+    DataSource = DataSource1
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object Edit1: TEdit
+    Left = 56
+    Top = 48
+    Width = 585
+    Height = 38
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -25
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    Text = 'Edit1'
+  end
+  object DataSource1: TDataSource
+    DataSet = tl
+    Left = 832
+    Top = 8
+  end
+  object tl: TADOQuery
+    Active = True
+    ConnectionString = 
+      'Provider=MSDASQL.1;Persist Security Info=False;Data Source=ODBC ' +
+      '5.1 Reload'
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select Login from data ORDER BY Login'
+      '')
+    Left = 832
+    Top = 80
+  end
+  object tabl: TADOTable
+    Active = True
+    ConnectionString = 
+      'Provider=MSDASQL.1;Persist Security Info=False;Data Source=ODBC ' +
+      '5.1 Reload'
+    CursorType = ctStatic
+    TableName = 'data'
+    Left = 832
+    Top = 160
+  end
+end

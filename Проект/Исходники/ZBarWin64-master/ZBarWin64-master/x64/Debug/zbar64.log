@@ -1,0 +1,11 @@
+﻿Сборка начата 13.06.2016 17:49:43.
+     1>Проект "C:\Исходники\ZBarWin64-master\ZBarWin64-master\zbar64.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IE:\opencv\build\include /I"C:\Исходники\ZBarWin64-master\ZBarWin64-master\zbar" /I"C:\Исходники\ZBarWin64-master\ZBarWin64-master\zbar/decoder" /I"C:\Исходники\ZBarWin64-master\ZBarWin64-master\zbar/libiconv/include" /I"C:\Исходники\ZBarWin64-master\ZBarWin64-master\zbar/qrcode" /I"C:\Исходники\ZBarWin64-master\ZBarWin64-master\include" /Zi /nologo /W3 /WX- /Od /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ZBAR64_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt zbar\main.cpp
+         main.cpp
+     1>zbar\main.cpp(2): fatal error C1083: Не удается открыть файл включение: opencv2/highgui/highgui.hpp: No such file or directory
+     1>Сборка проекта "C:\Исходники\ZBarWin64-master\ZBarWin64-master\zbar64.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:00.26

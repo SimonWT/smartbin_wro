@@ -1,0 +1,30 @@
+.\Win64\Debug\Unit1.o: Unit1.cpp Unit1.h \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\iostream \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\istream \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\ostream \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\ios \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\xlocnum \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\streambuf \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\xiosbase \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\xlocale \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\stdexcept \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\xlocinfo \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\cctype \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\yvals.h \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\windows\crtl\ctype.h \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\clocale \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\windows\crtl\locale.h \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\windows\crtl\_loc.h \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\ctime \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\windows\crtl\time.h \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\windows\crtl\_stddef.h \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\xlocinfo.h \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\xdebug \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\system_error \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\cerrno \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\windows\crtl\errno.h \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\sstream \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\string \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\iterator \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\dinkumware64\fstream \
+  c:\program\ files\ (x86)\embarcadero\studio\16.0\include\windows\crtl\conio.h

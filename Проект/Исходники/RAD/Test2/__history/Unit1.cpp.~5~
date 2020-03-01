@@ -1,0 +1,149 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit1.h"
+#include <iostream>
+#include <cstdlib>
+#include <sstream>
+#include <cstring>
+#include <fstream>
+#include <conio.h>
+
+using namespace std;
+
+
+
+
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+
+
+TForm1 *Form1;
+//---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button1Click(TObject *Sender)
+{
+  std::stringstream stream;
+	stream << "\"C:\\»сходники\\exe OpenCV\\IDcan.exe\""
+		<< " " // разделитель, отдел€ющий программу от аргумента
+		<< "myargument";
+	system(stream.str().c_str());
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button2Click(TObject *Sender)
+{
+std::stringstream stream;
+	stream << "\"C:\\»сходники\\exe ћеханика\\Lotok_v1.exe\""
+		<< " " // разделитель, отдел€ющий программу от аргумента
+		<< "myargument";
+	system(stream.str().c_str());
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button3Click(TObject *Sender)
+{
+std::stringstream stream;
+	stream << "\"C:\\»сходники\\exe ћеханика\\Raspredelenie.exe\""
+		<< " " // разделитель, отдел€ющий программу от аргумента
+		<< "myargument";
+	system(stream.str().c_str());
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button4Click(TObject *Sender)
+{
+std::stringstream stream;
+	stream << "\"C:\\»сходники\\exe ћеханика\\GivingOut.exe\""
+		<< " " // разделитель, отдел€ющий программу от аргумента
+		<< "myargument";
+	system(stream.str().c_str());
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::Button5Click(TObject *Sender)
+{
+	 string Username;
+	 bool key;
+	 char c;
+
+	do{
+		std::stringstream stream;
+	stream << "\"C:\\»сходники\\exe OpenCV\\libzbar64-0.exe\""
+		<< " " // разделитель, отдел€ющий программу от аргумента
+		<< "myargument";
+	system(stream.str().c_str());
+
+		//считываем файл
+	   fstream F;
+	   F.open("C:\\ReturningFiles\\return_from_decoding.txt");
+	   F >> Username;
+	   F.close();
+
+	  //if(kbhit())if(getch() == 27)break;
+
+
+
+	   if(Username!="0"){
+		ShowMessage("Welcome!");
+		/*for(int i=;i < TLogin->RecordCount;i++){
+		  if(TLogin->FieldByName("Login")->AsString==Username){
+			 key=true;
+				  }else{ShowMessage("Wrong Login");}
+											 }
+
+
+		if (key==true) {
+
+	//ќткрываем лоток
+            std::stringstream stream;
+	stream << "\"C:\\»сходники\\exe ћеханика\\Lotok_v1.exe\""
+		<< " " // разделитель, отдел€ющий программу от аргумента
+		<< "myargument";
+	system(stream.str().c_str());
+
+	//«апускаем определение
+
+
+
+    //ќпускаем платформу, поворачиваем направл€юще
+       std::stringstream stream;
+	stream << "\"C:\\»сходники\\exe ћеханика\\Raspredelenie.exe\""
+		<< " " // разделитель, отдел€ющий программу от аргумента
+		<< "myargument";
+	system(stream.str().c_str());
+
+
+	//ѕроверка очков-> выдача банки
+	  for(int i=;i < TLogin->RecordCount;i++){
+		  if(TLogin->FieldByName("Login")->AsString==Username){
+		  if(TLogin->FieldByName("Points")->AsInt > 5){
+
+		  //¬ыдача банки
+           std::stringstream stream;
+	stream << "\"C:\\»сходники\\exe ћеханика\\GivingOut.exe\""
+		<< " " // разделитель, отдел€ющий программу от аргумента
+		<< "myargument";
+	system(stream.str().c_str());
+
+
+		  }
+		 }
+		}
+
+
+
+		  */
+
+		}
+
+	}while(true);
+
+
+}
+//---------------------------------------------------------------------------
+
+

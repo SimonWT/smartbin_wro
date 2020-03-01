@@ -1,0 +1,230 @@
+﻿Сборка начата 14.06.2016 15:41:49.
+     1>Проект "C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar64.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar" /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar/decoder" /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar/libiconv/include" /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar/qrcode" /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ZBAR64_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt zbar\config.c zbar\decoder.c zbar\decoder\codabar.c zbar\decoder\code128.c zbar\decoder\code39.c zbar\decoder\code93.c zbar\decoder\databar.c zbar\decoder\ean.c zbar\decoder\i25.c zbar\decoder\pdf417.c zbar\decoder\qr_finder.c zbar\error.c zbar\image.c zbar\img_scanner.c zbar\qrcode\bch15_5.c zbar\qrcode\binarize.c zbar\qrcode\isaac.c zbar\qrcode\qrdec.c zbar\qrcode\qrdectxt.c zbar\qrcode\rs.c zbar\qrcode\util.c zbar\refcnt.c zbar\symbol.c
+         symbol.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(286): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(290): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(319): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(323): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(326): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(329): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(334): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(337): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(340): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(344): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(346): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(348): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(349): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(356): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(359): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\symbol.c(361): warning C4018: <=: несоответствие типов со знаком и без знака
+         refcnt.c
+         util.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\util.c(22): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\util.c(64): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\util.c(65): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\util.c(71): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\util.c(73): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\util.c(76): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\util.c(78): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+         rs.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\rs.c(37): warning C4146: применение унарного минуса к типу без знака; результат оставлен без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\rs.c(67): warning C4146: применение унарного минуса к типу без знака; результат оставлен без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\rs.c(67): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\rs.c(199): warning C4146: применение унарного минуса к типу без знака; результат оставлен без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\rs.c(199): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\rs.c(533): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+         qrdectxt.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdectxt.c(395): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdectxt.c(405): warning C4018: >: несоответствие типов со знаком и без знака
+         qrdec.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(159): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(201): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(280): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(281): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(537): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(540): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(541): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(544): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(545): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(583): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(587): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(588): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(670): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(672): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(678): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(678): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(680): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(680): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(744): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(745): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(747): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(748): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(750): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(751): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(752): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(752): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(765): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(766): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(767): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(768): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(770): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(772): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(774): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(790): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(790): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(868): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1090): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1223): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1279): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1280): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1299): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1300): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1606): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1607): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1608): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1609): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1621): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1623): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1624): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1643): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1644): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1774): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1775): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1776): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1848): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1850): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1852): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(1854): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2040): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2041): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2070): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2071): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2073): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2074): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2075): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2076): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2090): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2092): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2117): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2118): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2119): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2120): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2135): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2136): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2171): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2173): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2174): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2183): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2185): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2186): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2195): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2197): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2552): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2563): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2620): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2751): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2753): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2836): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2882): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2895): warning C4146: применение унарного минуса к типу без знака; результат оставлен без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2911): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2927): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2943): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(2960): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(3035): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(3162): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(3165): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(3173): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(3492): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(3585): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\qrdec.c(3620): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+         isaac.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(29): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(30): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(33): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(34): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(37): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(38): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(41): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(42): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(47): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(48): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(51): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(52): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(55): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(56): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(59): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\isaac.c(60): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+         binarize.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\binarize.c(540): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\binarize.c(541): warning C4554: >>: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\binarize.c(548): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\binarize.c(562): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\binarize.c(571): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+         bch15_5.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\bch15_5.c(48): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\bch15_5.c(51): warning C4554: <<: проверьте порядок применения операторов на наличие ошибки; для четкого задания порядка используйте скобки
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\bch15_5.c(125): warning C4146: применение унарного минуса к типу без знака; результат оставлен без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\qrcode\bch15_5.c(126): warning C4146: применение унарного минуса к типу без знака; результат оставлен без знака
+         img_scanner.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\img_scanner.c(153): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\img_scanner.c(251): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\img_scanner.c(700): warning C4018: >: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\img_scanner.c(703): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\img_scanner.c(710): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\img_scanner.c(716): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\img_scanner.c(727): warning C4018: >=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\img_scanner.c(756): warning C4018: >: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\img_scanner.c(759): warning C4018: <=: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\img_scanner.c(764): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\img_scanner.c(770): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\img_scanner.c(781): warning C4018: >=: несоответствие типов со знаком и без знака
+         image.c
+         error.c
+         qr_finder.c
+         pdf417.c
+         i25.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\i25.c(192): warning C4018: <: несоответствие типов со знаком и без знака
+         ean.c
+         databar.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\databar.c(426): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\databar.c(540): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\databar.c(577): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\databar.c(585): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\databar.c(618): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\databar.c(631): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\databar.c(747): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\databar.c(795): warning C4018: >: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\databar.c(1093): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\databar.c(1132): warning C4018: >=: несоответствие типов со знаком и без знака
+         code93.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\code93.c(200): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\code93.c(201): warning C4018: >: несоответствие типов со знаком и без знака
+         code39.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\code39.c(236): warning C4018: <: несоответствие типов со знаком и без знака
+         code128.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\code128.c(230): warning C4018: >: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\code128.c(339): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\code128.c(362): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\code128.c(412): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\code128.c(528): warning C4018: >: несоответствие типов со знаком и без знака
+         Создание кода...
+         Компиляция...
+         codabar.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\codabar.c(399): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder\codabar.c(401): warning C4018: >: несоответствие типов со знаком и без знака
+         decoder.c
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder.c(519): warning C4018: >: несоответствие типов со знаком и без знака
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\decoder.c(528): warning C4018: <: несоответствие типов со знаком и без знака
+         config.c
+         Создание кода...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar" /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar/decoder" /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar/libiconv/include" /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar/qrcode" /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ZBAR64_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt zbar\main.cpp
+         main.cpp
+     1>c:\users\anna\documents\исходники\qr decoder\zbarwin64-master\zbar\main.cpp(2): fatal error C1083: Не удается открыть файл включение: opencv2/highgui/highgui.hpp: No such file or directory
+     1>Сборка проекта "C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar64.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:06.34

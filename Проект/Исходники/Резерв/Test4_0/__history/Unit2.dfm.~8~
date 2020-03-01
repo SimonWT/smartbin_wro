@@ -1,0 +1,58 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'LK'
+  ClientHeight = 424
+  ClientWidth = 801
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Image1: TImage
+    Left = 72
+    Top = 105
+    Width = 257
+    Height = 249
+    AutoSize = True
+  end
+  object Label1: TLabel
+    Left = 72
+    Top = 360
+    Width = 177
+    Height = 40
+    Caption = #1042#1072#1096' QR '#1082#1086#1076
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -33
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 400
+    Top = 24
+    Width = 155
+    Height = 42
+    Caption = 'Username'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -35
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 40
+    Top = 24
+    Width = 161
+    Height = 33
+    Caption = '<- '#1042#1077#1088#1085#1091#1090#1100#1089#1103' '#1085#1072' '#1043#1083#1072#1074#1085#1091#1102
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+end

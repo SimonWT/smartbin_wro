@@ -1,0 +1,10 @@
+﻿Сборка начата 14.06.2016 16:22:01.
+     1>Проект "C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar64.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar" /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar/decoder" /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar/libiconv/include" /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar/qrcode" /I"C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\include" /Zi /nologo /W0 /WX- /Od /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ZBAR64_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt zbar\main.cpp
+         main.cpp
+     1>Сборка проекта "C:\Users\Anna\Documents\Исходники\QR Decoder\ZBarWin64-master\zbar64.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:04.07

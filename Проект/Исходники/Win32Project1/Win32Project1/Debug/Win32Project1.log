@@ -1,0 +1,23 @@
+﻿Сборка начата 20.05.2016 21:21:11.
+     1>Проект "C:\Users\Вадим\Documents\Visual Studio 2013\Projects\Win32Project1\Win32Project1\Win32Project1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sravn.cpp
+         sravn.cpp
+     1>c:\users\вадим\documents\visual studio 2013\projects\win32project1\win32project1\sravn.cpp(55): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+     1>c:\users\вадим\documents\visual studio 2013\projects\win32project1\win32project1\sravn.cpp(94): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+     1>c:\users\вадим\documents\visual studio 2013\projects\win32project1\win32project1\sravn.cpp(135): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+     1>c:\users\вадим\documents\visual studio 2013\projects\win32project1\win32project1\sravn.cpp(173): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Вадим\Documents\Visual Studio 2013\Projects\Win32Project1\Debug\Win32Project1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc14\lib opencv_world310.lib opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Вадим\Documents\Visual Studio 2013\Projects\Win32Project1\Debug\Win32Project1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Вадим\Documents\Visual Studio 2013\Projects\Win32Project1\Debug\Win32Project1.lib" /MACHINE:X86 Debug\sravn.obj
+     1>sravn.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvCreateImage в функции "__int64 __cdecl calcImageHash(struct _IplImage *,bool)" (?calcImageHash@@YA_JPAU_IplImage@@_N@Z)
+     1>sravn.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvAvg в функции "__int64 __cdecl calcImageHash(struct _IplImage *,bool)" (?calcImageHash@@YA_JPAU_IplImage@@_N@Z)
+     1>sravn.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvCvtColor в функции "__int64 __cdecl calcImageHash(struct _IplImage *,bool)" (?calcImageHash@@YA_JPAU_IplImage@@_N@Z)
+     1>sravn.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvResize в функции "__int64 __cdecl calcImageHash(struct _IplImage *,bool)" (?calcImageHash@@YA_JPAU_IplImage@@_N@Z)
+     1>sravn.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvThreshold в функции "__int64 __cdecl calcImageHash(struct _IplImage *,bool)" (?calcImageHash@@YA_JPAU_IplImage@@_N@Z)
+     1>sravn.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvLoadImage в функции "int __cdecl bottle_with_hat(int,char * * const)" (?bottle_with_hat@@YAHHQAPAD@Z)
+     1>C:\Users\Вадим\Documents\Visual Studio 2013\Projects\Win32Project1\Debug\Win32Project1.exe : fatal error LNK1120: неразрешенных внешних элементов: 6
+     1>Сборка проекта "C:\Users\Вадим\Documents\Visual Studio 2013\Projects\Win32Project1\Win32Project1\Win32Project1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:05.79
